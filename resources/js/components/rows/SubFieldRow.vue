@@ -89,9 +89,7 @@
 
         computed:{
             formLayout(){
-                return (this.field.display_stacked)
-                    ? '-vertical'
-                    : '-horizontal';
+                return '-vertical';
             }
         },
 

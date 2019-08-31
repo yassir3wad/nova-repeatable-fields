@@ -16863,7 +16863,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     computed: {
         formLayout: function formLayout() {
-            return this.field.display_stacked ? '-vertical' : '-horizontal';
+            return '-vertical';
         }
     },
 
